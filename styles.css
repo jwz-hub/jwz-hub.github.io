@@ -33,11 +33,27 @@ h1 {
     margin-bottom: 20px;
 }
 
+.game-board-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
 .game-board {
     display: flex;
     flex-direction: column;
     gap: 6px;
     width: 100%;
+    max-width: 310px;
+}
+
+.side-image {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .row {
@@ -225,5 +241,14 @@ h1 {
     .key.enter,
     .key.delete {
         min-width: 55px;
+    }
+    
+    .side-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .game-board-wrapper {
+        gap: 10px;
     }
 }
