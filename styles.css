@@ -159,6 +159,7 @@ h1 {
     right: 20px;
     font-size: 12pt;
     color: #ffffff;
+    display: none;
 }
 
 .modal {
